@@ -25,3 +25,5 @@ python3 studio/asset-generation/prepare_png.py source.png sprite.png --palette 2
 ```
 
 Requires Python and Pillow. Each command expects a new output path. The helper processes one asset in memory and performs no model or network calls.
+
+See the [supervised lantern pilot](pilots/lantern/README.md) for a real generation and preparation handoff. Automated provider access still requires a separately approved deployment and budget.
