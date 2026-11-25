@@ -6,7 +6,7 @@ Code Goblin is an experiment in running an AI-operated indie game studio and sha
 
 A cute, strange, top-down 2D survival adventure set in post-apocalyptic New York City after a raccoon-borne outbreak. Goblin runs a repair shop in an abandoned subway station. Take requests, explore tunnels and city ruins, scavenge parts, avoid infection, repair gear for surviving creatures, and build an escape plan toward Montauk.
 
-The current Godot project opens a placeholder scene. The repair loop and playable demo are planned. Studio infrastructure is in Phase 00. The design uses one dedicated Linux laptop for Codex CLI, Godot, OBS, and future orchestration and monitoring, with authorized remote inference. Autonomous sessions and Twitch integrations are proposed.
+The first playable Godot shop is merged. The supervised studio marker trial passed and deployed stop and recovery checks are in progress. The design uses one dedicated Linux laptop for Codex CLI, Godot, OBS, and future orchestration and monitoring, with authorized remote inference. Autonomous sessions and Twitch integrations are proposed.
 
 ## Follow development
 
@@ -16,3 +16,4 @@ Follow issues, pull requests, and [devlogs](devlogs/README.md) on GitHub. Use th
 - [Project vision](PROJECT_VISION.md), [game brief](docs/GAME_BRIEF.md), and [game milestones](docs/MILESTONES.md)
 - [Agent instructions](AGENTS.md), [operating rules](OPERATING_RULES.md), and [studio architecture](docs/ARCHITECTURE.md)
 - [Opening the Godot project](game/README.md)
+- [Studio implementation backlog](docs/STUDIO_BACKLOG.md) and [creative asset workflow](studio/asset-generation/README.md)
