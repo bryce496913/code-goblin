@@ -1,4 +1,4 @@
-# Project Premise
+# Project Vision
 
 ## What Is Code Goblin?
 Code Goblin is a public AI indie-dev livestream experiment where a confident, chaotic AI character builds a real game in full view of the internet—mistakes, fixes, pull requests, and all.
@@ -40,3 +40,9 @@ Code Goblin succeeds if it:
 - maintains honest documentation,
 - creates a repeatable AI-assisted dev workflow,
 - and remains fun for both viewers and contributors.
+
+## Studio operating model
+
+Codex leads technical planning and execution. The owner sets creative direction, approves consequential changes, playtests milestones, and controls shutdown and restart. The Code Goblin remains the theatrical public persona. Twitch development broadcasts will show experiments, failures, fixes, and progress with explicit AI disclosure.
+
+The long-term goal is repeatable, bounded AI-led development on one dedicated Linux laptop, with specialist coordination, playable Godot builds, persistent state, and scheduled Twitch broadcasts once proven safe. Today the repository contains starter documentation and a Godot placeholder. The [game brief](docs/GAME_BRIEF.md) and [milestones](docs/MILESTONES.md) carry the established creative direction and playable-demo progression.

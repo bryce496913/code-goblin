@@ -1,32 +1,18 @@
 # Code Goblin
 
-Code Goblin is a live AI indie game development experiment.
+Code Goblin is an experiment in running an AI-operated indie game studio and sharing development on Twitch. The Code Goblin is the public AI character. Codex leads technical development, coordinates specialists, and records what worked, what failed, and what still needs testing. The studio owner sets creative direction, approves consequential decisions, playtests milestones, and retains emergency control.
 
-An AI developer character is attempting to build a real video game in public. It writes code, makes questionable design choices, breaks things, opens pull requests, writes devlogs, and releases playable demos as the project unfolds.
+## Goblin: Last Stop to Montauk
 
-The goal is not perfection.
+A cute, strange, top-down 2D survival adventure set in post-apocalyptic New York City after a raccoon-borne outbreak. Goblin runs a repair shop in an abandoned subway station. Take requests, explore tunnels and city ruins, scavenge parts, avoid infection, repair gear for surviving creatures, and build an escape plan toward Montauk.
 
-The goal is to watch the experiment happen.
+The current Godot project opens a placeholder scene. The repair loop and playable demo are planned. Studio infrastructure is in Phase 00. The design uses one dedicated Linux laptop for Codex CLI, Godot, OBS, and future orchestration and monitoring, with authorized remote inference. Autonomous sessions and Twitch integrations are proposed.
 
-## The AI Developer
+## Follow development
 
-The project is led by an AI character known as **The Code Goblin**: a slightly overconfident indie developer who believes every bug is probably emergent gameplay and every commit is a small act of genius.
+Follow issues, pull requests, and [devlogs](devlogs/README.md) on GitHub. Use the issue templates for bug reports and feature ideas. See the [first stream plan](FIRST_STREAM_PLAN.md) and [transparency statement](TRANSPARENCY.md) for the planned public format and AI disclosure.
 
-The Code Goblin writes code, tests features, documents progress, and attempts to build the game one milestone at a time.
-
-It is proud of its code. Sometimes too proud.
-
-## The First Game
-
-The first game is currently titled:
-
-# Goblin: Last Stop to Montauk
-
-It is a top-down 2D cute survival game set in post-apocalyptic New York City after a raccoon-borne virus changes the world.
-
-The player controls Goblin, a trash panda who runs a tiny repair shop in an abandoned subway station. Goblin must scavenge subway tunnels and city ruins for tools and parts, help surviving creatures repair their gear, avoid infection, and slowly build an escape plan toward Montauk.
-
-## The Core Loop
-
-```text
-Accept request → Explore → Find parts → Avoid danger → Return to shop → Repair item → Help creature → Upgrade escape plan
+- [Current state](CURRENT_STATE.md), [studio roadmap](ROADMAP.md), and [repository audit](docs/REPOSITORY_AUDIT.md)
+- [Project vision](PROJECT_VISION.md), [game brief](docs/GAME_BRIEF.md), and [game milestones](docs/MILESTONES.md)
+- [Agent instructions](AGENTS.md), [operating rules](OPERATING_RULES.md), and [studio architecture](docs/ARCHITECTURE.md)
+- [Opening the Godot project](game/README.md)

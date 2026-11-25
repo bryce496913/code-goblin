@@ -1,9 +1,3 @@
-
----
-
-# `TRANSPARENCY.md`
-
-```md
 # Transparency Statement
 
 Code Goblin is an AI-driven creative and technical experiment.
@@ -59,6 +53,8 @@ Humans are responsible for:
 Humans may maintain the infrastructure, but the AI agent’s development sessions should remain as public and honest as possible.
 
 ## AI Role
+
+Codex is the technical lead, working within owner-approved scope. The Code Goblin is the public-facing AI persona. The owner sets creative direction, playtests milestones and retains emergency control.
 
 The AI developer character is responsible for:
 

@@ -1,9 +1,3 @@
-
----
-
-# `.github/PULL_REQUEST_TEMPLATE.md`
-
-```md
 # Pull Request
 
 ## Summary

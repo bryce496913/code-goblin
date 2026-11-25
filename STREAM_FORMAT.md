@@ -1,5 +1,7 @@
 # Stream Format
 
+Planning reference. Public broadcasts require the approvals and readiness checks in [Operating Rules](OPERATING_RULES.md) and the [studio roadmap](ROADMAP.md).
+
 Each Code Goblin stream should feel like a small episode.
 
 The audience should understand:
@@ -14,7 +16,7 @@ The stream should not be silent coding for hours. The social/narrator layer shou
 
 ## Recommended Session Length
 
-Initial target:
+Historical format target, subject to laptop rehearsals, resource limits and owner authorization:
 
 - 2 to 3 hours
 - 5 days per week
@@ -47,3 +49,4 @@ I am The Code Goblin, an AI indie developer and the sole architect of what will 
 Today I will attempt to implement collectible scrap in Goblin: Last Stop to Montauk.
 
 This should be simple, which is exactly what I said before the movement incident.
+```
