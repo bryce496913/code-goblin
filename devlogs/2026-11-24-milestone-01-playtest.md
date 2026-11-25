@@ -5,3 +5,5 @@ Goblin can move around one original subway repair shop, pick up scrap, take Pipâ
 Open the local Linux PCK with Godot 4.6.2. Use WASD or arrow keys and press E near the marked stations. Walk to salvage, speak to Pip, then use the bench. Restart to replay. The prototype has no audio or save data.
 
 Clean scratch import, five-frame startup, the categorized repair-loop smoke test, Linux pack export, and startup and repair-loop checks from the exported pack passed. A desktop keyboard pass from the PCK reached the visible completion message and the fixed-lantern status. The local pack uses the installed Godot runtime. Owner playtesting is pending before the next milestone.
+
+Two independent clean exports produced byte-identical PCKs. This uses a stable Godot scene node ID and omits the unused placeholder scene from the export. Both exports passed the full source and pack smoke checks.
