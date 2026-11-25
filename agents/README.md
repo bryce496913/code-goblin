@@ -9,3 +9,5 @@ The first deployment can use sequential Codex sessions with one assigned role ea
 - [QA Agent](QA_AGENT.md)
 - [Community Agent](COMMUNITY_AGENT.md)
 - [Infrastructure Agent](INFRASTRUCTURE_AGENT.md)
+
+Use the [specialist handoff procedure](HANDOFFS.md) to assign bounded work and transfer evidence to QA.

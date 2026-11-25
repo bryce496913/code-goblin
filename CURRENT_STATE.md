@@ -8,3 +8,6 @@
 - Evidence: [approved setup and trial](devlogs/2026-11-24-approved-local-setup.md), [Phase 01 sanity check](devlogs/2026-11-24-phase-01-sanity-check.md), and [handover](devlogs/2026-11-24-laptop-handover.md).
 
 The [studio implementation backlog](docs/STUDIO_BACKLOG.md) reconciles the master directive with current evidence. A bounded [offline asset preparation utility](studio/asset-generation/README.md) is available for creative workflow tests. The original Starting Soon and Emergency Pause artwork still needs to be located or supplied.
+
+- The merged shop was revalidated from a clean source and export build. The resulting pack matched the previous playtest SHA-256.
+- The seven specialist roles now share a [handoff procedure](agents/HANDOFFS.md). A supervised [lantern candidate](studio/asset-generation/pilots/lantern/README.md) exercised built-in generation and deterministic preparation. Independent QA, autonomous provider deployment and cost enforcement remain separate gates.
