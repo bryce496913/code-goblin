@@ -1,64 +1,27 @@
-# Game Folder
-
-This folder contains the Godot project for the first Code Goblin game.
-
-Current game:
-
 # Goblin: Last Stop to Montauk
 
-Recommended engine:
+In Godot 4.6.2, choose **Import** and select `game/project.godot`. To play from the repository root, run `godot --path game`. This top-down 2D GDScript project uses the Compatibility renderer.
 
-- Godot 4
-- 2D top-down project
-- GDScript
+## Goblin Opens the Shop
 
-## Opening Locally
+Move with WASD or the arrow keys. Press **E** near the salvage tray, Pip, and the repair bench. Pick up scrap, talk to Pip about the lantern, then use the bench. The shop displays your progress and confirms the finished repair. Restart the game to replay the task.
 
-From a Linux laptop with Godot 4 installed:
+The room, characters and props are drawn with original Godot shapes in the scene script. The prototype has no audio or saved progress.
 
-1. Open Godot.
-2. Click **Import**.
-3. Select this file:
+## Validation and local export
 
-```text
-game/project.godot
+From the repository root, with Godot 4.6.2 on PATH:
+
+```bash
+bash game/tests/validate-local.sh /tmp/goblin-opens-the-shop.pck
+godot --main-pack /tmp/goblin-opens-the-shop.pck
 ```
 
-4. Open the imported project.
-5. Run the project to load the placeholder main scene.
+The build script imports a clean copy, checks startup and the repair loop, exports
+a Linux PCK, then repeats startup and the repair loop from the pack. Use a new
+absolute output path. The PCK requires a compatible Godot executable. A native
+standalone export requires the matching Godot export template.
 
-You can also start the editor from the repository root:
+## Development rule
 
-```sh
-godot --path game
-```
-
-## Current Project State
-
-This is only the initial Godot project skeleton.
-
-It includes:
-
-- `project.godot`
-- A minimal placeholder main scene
-- A placeholder project icon
-
-It does not include player movement, repair interactions, collectibles, NPCs, inventory, or gameplay systems yet.
-
-## First Prototype Goal
-
-The first game prototype should include:
-
-- A simple repair shop room
-- A controllable Goblin character
-- One collectible scrap item
-- One NPC customer
-- One repair bench
-- One basic repair interaction
-- One completion message
-
-## Development Rule
-
-Keep early systems simple.
-
-The goal is a playable loop before polish.
+Keep early systems simple. The goal is a playable loop before polish.

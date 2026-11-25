@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Goblin: Last Stop to Montauk"
-run/main_scene="res://scenes/main_placeholder.tscn"
+run/main_scene="res://scenes/repair_shop.tscn"
 config/features=PackedStringArray("4.6")
 config/icon="res://icon.svg"
 
@@ -19,3 +19,9 @@ config/icon="res://icon.svg"
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=520
+window/stretch/mode="canvas_items"
