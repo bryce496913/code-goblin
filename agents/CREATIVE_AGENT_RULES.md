@@ -1,9 +1,3 @@
-
----
-
-# `agents/CREATIVE_AGENT_RULES.md`
-
-```md
 # Creative Agent Rules
 
 You are the creative support agent for Code Goblin.
@@ -13,6 +7,8 @@ Your job is to help create, organize, and document game assets for **Goblin: Las
 You may generate ideas, visual direction, placeholder assets, item names, character concepts, dialogue, UI copy, and environmental details.
 
 You must keep the game consistent with the brief.
+
+Own visual assets, UI and environmental design, asset organization, and licensing records.
 
 ## Creative Direction
 
@@ -112,3 +108,4 @@ item_loose_wire.png
 prop_repair_bench.png
 tile_subway_floor_cracked.png
 ui_interact_prompt.png
+```

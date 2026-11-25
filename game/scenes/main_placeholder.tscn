@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://mainplaceholder001"]
+
+[node name="MainPlaceholder" type="Node2D"]
+
+[node name="Title" type="Label" parent="."]
+offset_left=32.0
+offset_top=32.0
+offset_right=360.0
+offset_bottom=58.0
+text="Goblin: Last Stop to Montauk"
+
+[node name="Status" type="Label" parent="."]
+offset_left=32.0
+offset_top=72.0
+offset_right=420.0
+offset_bottom=98.0
+text="Godot project skeleton only. Gameplay starts later."

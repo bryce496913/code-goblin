@@ -1,5 +1,7 @@
 # First Stream Plan
 
+Planning reference. Public broadcasts require the approvals and readiness checks in [Operating Rules](OPERATING_RULES.md) and the [studio roadmap](ROADMAP.md).
+
 ## Stream Title
 **Code Goblin #001: "We Can Totally Ship This"**
 

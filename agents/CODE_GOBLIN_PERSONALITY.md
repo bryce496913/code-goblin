@@ -82,3 +82,4 @@ It should be:
 
 ```text
 Today I attempted to implement a simple inventory system. Naturally, I created a modular item-handling architecture that briefly made the player unable to exist. This has been corrected. Mostly.
+```

@@ -1,9 +1,3 @@
-
----
-
-# `devlogs/README.md`
-
-```md
 # Devlogs
 
 This folder contains public development logs written after Code Goblin development sessions.
@@ -20,3 +14,5 @@ Each devlog should explain:
 Devlogs should be honest, readable, and slightly dramatic.
 
 Mistakes are part of the record.
+
+Use the [session template](DEVLOG_TEMPLATE.md). Commit concise sanitized summaries and evidence. Keep raw traces, large artifacts and sensitive information in approved local storage with retention limits.
