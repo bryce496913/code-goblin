@@ -12,21 +12,29 @@ The established game premise, repair shop, Goblin, New York setting, and journey
 
 ## Capability inventory
 
-| Capability | State | Remaining evidence or owner gate |
+Status refers to the named capability at its present scope. See the [read-only laptop baseline](LAPTOP_BASELINE.md) for observations, versions, performance evidence and audit limits.
+
+| Capability | Status | Evidence and remaining acceptance |
 | --- | --- | --- |
-| Repository and laptop foundation | Verified for supervised work | Preserve main protection, isolated branches, sanitized devlogs and repeatable Godot exports. Monitor resource pressure on the existing laptop. |
-| Phase 02 orchestration | One supervised run verified | PR #4 merged. Keep its one-run claim consumed. Implement bounded task handoffs, leases and resource accounting for later explicitly approved trials. |
-| Emergency controls and recovery | Partial | Dedicated crash fixture reconciled once and refused under STOP. Verify the independent active stop, separate dedicated-unit restart and owner-approved reboot. Add controlled network and application failure cases before autonomy. |
-| Persistent memory and GitHub | Partial | Maintain accepted decisions, task status and provenance in Git. Keep live leases and credentials private. Validate restore and backup, pre-commit secret scanning, fixture CI, and release packaging. |
-| Specialist execution | Roles and handoffs documented | The Creative → QA pilot passed. Exercise additional Developer and Narrative handoffs in a bounded rehearsal. Validate Community and Infrastructure handoffs separately. |
-| Creative assets and tooling | Supervised built-in generation pilot | Establish a source-backed style guide, character sheets, structured requests, QA and Godot import. The lantern pilot passed independent file and provenance QA. Complete deployment validation for generated assets. Enforce caching, retry, quota and cost controls before allowing automated generation. |
-| Canonical branding | Owner source files needed | Obtain the original Starting Soon and Emergency Pause images. Preserve the goggled raccoon in a green hoodie, neon lime/purple, distressed typography and warm subway workshop. Game art may use its own readable top-down style. |
-| Gameplay and QA | Milestone 1 merged and tested | Owner playtest acceptance or feedback precedes Milestone 2. Continue source and clean-pack verification and add independent QA as mechanics expand. |
-| OBS and dashboard | Offline placeholder rehearsal verified | After Phase 03 and private authorization, rehearse the actual build and four existing scenes. Add authenticated loopback control, sanitized status and an allowlisted read-only dashboard view. |
-| Twitch and commentary | Planned | Authorize minimum Twitch scopes, test reconnect and deduplication, rate limits, moderation and untrusted-input isolation. Exercise original AI-disclosed commentary. Optional voice needs its own rights and budget review. |
-| Financial and resource controls | One trial bounded | Verify subscription entitlement independently of API billing. Add accounting and enforce daily, monthly, per-session and per-agent budgets for reasoning, images, retries and optional audio. Reserve shutdown capacity. |
-| Private autonomy | Gated | Verify recovery, delivery, creative import, spending, independent QA, OBS privacy and performance. Obtain specific owner approval and exercise multiple complete private rehearsals. |
-| Public operation and release | Gated | Use the [first stream plan](../FIRST_STREAM_PLAN.md) after private rehearsals and explicit approval. Verify clean demo download and owner playtest before release. Approve scheduling and test every start gate before enabling any recurring session. |
+| Protected Git/GitHub development | Implemented | Authenticated desktop read and protected main verified. No repository Actions workflows are configured. |
+| Laptop setup and local diagnostics | Implemented | Dedicated account, required tools, and scoped administrative route are present for supervised work. The [environment preflight](LOCAL_ENVIRONMENT.md) verifies the private runtime, tools and disposable checks. |
+| Supervised Codex orchestration | Implemented | Bounded JSONL trial passed under the studio UID. The authorization is consumed. |
+| Independent stop and recovery | Partially implemented | Root-owned latch, fixture locking, timeout cleanup, and crash reconciliation proved. Dedicated active stop and fresh-unit restart still require coordinated authorization, then an approved reboot. |
+| Persistent memory and backups | Partially implemented | GitHub documentation and sanitized devlogs exist. Restore drills, secret scanning and recovery coverage are missing. |
+| Specialist team | Partially implemented | Seven role definitions and handoffs exist. Independent Creative QA passed. Other deployed handoffs and unattended multi-agent behavior are unverified. |
+| Interactive asset workflow | Implemented | Built-in image generation, deterministic preparation, independent PNG checks and clean Godot import passed for the lantern pilot. |
+| Automated asset provider and cost enforcement | Blocked | Provider entitlement, programmatic access, budget and credential approval are required before deployment. |
+| Visual style, canonical branding and audio | Partially implemented | Creative rules and one prop pilot exist. Owner scene originals, reference sheets and production audio remain outstanding. |
+| Godot and Milestone 1 delivery | Implemented | Playable shop and PCK regression checks passed. Milestone 2 awaits owner acceptance or issue feedback. Native export templates were absent from the inspected path. |
+| CI, clean release and remote-write identity | Missing | Add validated CI and release checks. Obtain repository-only credentials before approved service writes. |
+| OBS local capture | Partially implemented | Existing four-scene profile and short software capture evidence. Actual playable-build rehearsal follows thermal and recovery checks. |
+| OBS WebSocket and studio dashboard | Missing | No local listener or dashboard backend. Verify local authentication and allowlisted status output when authorized. |
+| Twitch, reconnect and moderation | Blocked | Private integration authorization and scoped Twitch permissions required. No credentials or ingestion verified. |
+| Public character and optional voice | Partially implemented | Persona and transparency guidance exist. Live performance, moderation and voice rights are unverified. |
+| Networking, encode and thermal endurance | Unverified | HTTPS and brief software encode are evidenced. Sustained upload, hardware H.264 encoding and chipset temperature accuracy or stability are unverified. |
+| Financial controls | Partially implemented | One trial used approved ceilings and sanitized token reports. Daily, monthly and per-role cost controls and unattended entitlement are unverified. |
+| Private autonomy, first stream and public releases | Blocked | Recovery, thermal, delivery, capture safety, budgets, full private rehearsals and specific owner approvals remain outstanding. |
+| Scheduling | Missing | No project scheduler was found. Recurring dispatch requires separate approval and tested start and recovery gates. |
 
 The envisioned public cadence is roughly two to three hours, five days a week, subject to owner and resource approval. Each session starts with safety and state checks, then covers a visible objective, bounded development, QA, sanitized community interaction, GitHub and devlog updates, and verified shutdown.
 
