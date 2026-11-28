@@ -16,4 +16,5 @@ Follow issues, pull requests, and [devlogs](devlogs/README.md) on GitHub. Use th
 - [Project vision](PROJECT_VISION.md), [game brief](docs/GAME_BRIEF.md), and [game milestones](docs/MILESTONES.md)
 - [Agent instructions](AGENTS.md), [operating rules](OPERATING_RULES.md), and [studio architecture](docs/ARCHITECTURE.md)
 - [Opening the Godot project](game/README.md)
+- [Local development setup](docs/LOCAL_ENVIRONMENT.md) and [laptop baseline](docs/LAPTOP_BASELINE.md)
 - [Studio implementation backlog](docs/STUDIO_BACKLOG.md) and [creative asset workflow](studio/asset-generation/README.md)

@@ -11,3 +11,5 @@ The [studio implementation backlog](docs/STUDIO_BACKLOG.md) reconciles the maste
 
 - The merged shop was revalidated from a clean source and export build. The resulting pack matched the previous playtest SHA-256.
 - The seven specialist roles now share a [handoff procedure](agents/HANDOFFS.md). A supervised [lantern candidate](studio/asset-generation/pilots/lantern/README.md) exercised built-in generation and deterministic preparation. Independent pilot QA reproduced the sprite byte for byte from the retained original. Autonomous provider deployment and cost enforcement remain separate gates.
+
+- The November 24 [laptop baseline](docs/LAPTOP_BASELINE.md) and November 27 follow-up document hardware, existing capabilities and open owner gates. The supervised [local environment preflight](docs/LOCAL_ENVIRONMENT.md) verified tools, private runtime permissions, GitHub, GDScript and asset preparation.
